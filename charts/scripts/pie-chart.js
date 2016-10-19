@@ -29,7 +29,11 @@ VSS.require([
 						"specializedOptions": {
 							"showLabels": "true",
 							"size": 200
-						} 
+						}, 
+						"legend": {
+							"rightAlign": "true", 
+							"limitLabelSize": "true"
+						}
 					};
 
 					chartService.createChart($container, chartOptions);
