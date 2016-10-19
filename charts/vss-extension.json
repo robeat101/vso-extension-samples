@@ -16,7 +16,7 @@
     "demands": ["contribution/ms.vss-dashboards-web.widget-sdk-version-2", "contribution/ms.vss-web.charts-service"],
     "contributions": [
         {
-            "id": "SimplePieChart",
+            "id": "PieChart",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog"
@@ -25,7 +25,7 @@
                 "name": "Sample Pie Chart",
                 "description": "A simple pie chart widget with no configuration and hard-coded data.",
                 "catalogIconUrl": "img/CatalogIcon.png",
-                "uri": "SimplePieChart.html",
+                "uri": "PieChart.html",
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
@@ -84,7 +84,7 @@
     ],
     "files": [
         {
-            "path": "SimplePieChart.html",
+            "path": "PieChart.html",
             "addressable": true
         },
         {
