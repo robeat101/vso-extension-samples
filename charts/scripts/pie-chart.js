@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<script src="bower_components/vss-web-extension-sdk/lib/VSS.SDK.min.js"></script>
-	<script type="text/javascript">
 VSS.init({
  		explicitNotifyLoaded: true,
  		usePlatformStyles: true 
@@ -15,7 +9,7 @@ VSS.require([
 		],
 		function (WidgetHelpers, Services) {
  		WidgetHelpers.IncludeWidgetStyles();
- 		VSS.register("SimplePieChart", function () { 
+ 		VSS.register("PieChart", function () { 
 			 return {
 			 load:function() {
 				return Services.ChartsService.getService().then(function(chartService){
@@ -46,14 +40,3 @@ VSS.require([
 			});
 	VSS.notifyLoadSucceeded();
 });
-</script>
-</head>
-
-<body>
-	<div class="widget">
-		<h2 class="title">Chart Widget</h2>
-		<div id="Chart-Container"></div>
-	</div>
-</body>
-
-</html>

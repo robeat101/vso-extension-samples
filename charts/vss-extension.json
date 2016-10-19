@@ -100,6 +100,10 @@
             "addressable": true
         },
         {
+            "path": "scripts",
+            "addressable": true
+        },
+        {
             "path": "img",
             "addressable": true
         }
